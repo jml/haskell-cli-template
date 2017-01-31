@@ -18,8 +18,8 @@ dependencies:
 test:
   override:
     - cookiecutter --no-input -o .test-project .
-    # Default project is 'awesome-service'
-    - cd .test-project/awesome-service; git init; git add .; git commit -m "Initial commit"
-    - cd .test-project/awesome-service; stack --no-terminal test --fast
-    - cd .test-project/awesome-service; PATH=$HOME/.local/bin:$PATH ./scripts/hindent-everything && git diff --exit-code
-    - cd .test-project/awesome-service; PATH=$HOME/.local/bin:$PATH hlint .
+    # Default project is 'awesome-cli'
+    - cd .test-project/awesome-cli; git init; git add .; git commit -m "Initial commit"
+    - cd .test-project/awesome-cli; stack --no-terminal test --fast
+    - cd .test-project/awesome-cli; PATH=$HOME/.local/bin:$PATH ./scripts/hindent-everything && git diff --exit-code
+    - cd .test-project/awesome-cli; PATH=$HOME/.local/bin:$PATH hlint .
