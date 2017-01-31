@@ -5,6 +5,6 @@
     "github_username": "hackerx",
     "full_name": "Hacker X",
     "email": "hackerx@awesome-services.net",
-    "module_name": "AwesomeService",
-    "stack_resolver": "nightly-2017-01-25"
+    "module_name": "AwesomeTool",
+    "stack_resolver": "lts-7.18"
 }
