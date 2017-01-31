@@ -33,3 +33,5 @@ This cookiecutter project makes a few opinionated decisions:
 Note that the Cabal file is not checked in to this cookiecutter template.
 
 Uses [Johan Tibbe's style guide](https://github.com/tibbe/haskell-style-guide/blob/master/haskell-style.md), enforced by [hindent](https://github.com/chrisdone/hindent)
+
+The cookiecutter project is available under the Apache 2.0 license, but it defaults to creating command-line tools published under the GPL 3 license.
