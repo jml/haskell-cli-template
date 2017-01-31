@@ -1,0 +1,10 @@
+{
+    "project_name": "awesome-cli",
+    "synopsis": "One line description of project",
+    "category": "Tools",
+    "github_username": "hackerx",
+    "full_name": "Hacker X",
+    "email": "hackerx@awesome-services.net",
+    "module_name": "AwesomeService",
+    "stack_resolver": "nightly-2017-01-25"
+}
