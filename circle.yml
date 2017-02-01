@@ -13,7 +13,7 @@ dependencies:
   override:
     - stack --no-terminal setup 8.0.1
     - stack install hlint
-    - stack install --resolver nightly-2017-01-25 hindent-5.2.1 haskell-src-exts-1.18.2
+    - stack install --resolver lts-7.18 hindent-5.2.1 haskell-src-exts-1.18.2
 
 test:
   override:
