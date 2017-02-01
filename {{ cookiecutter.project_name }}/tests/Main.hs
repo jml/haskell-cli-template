@@ -12,12 +12,9 @@ main = do
   t <- sequence allTests
   defaultMain . testGroup "{{ cookiecutter.module_name }}" $ t
   where
-    allTests =
-      [ tests
-      ]
+    allTests = [tests]
 
 tests :: IO TestTree
-tests = testSpec "{{ cookiecutter.project_name }}" $ do
-  describe "the feature" $ do
-    it "has a test" $ do
-      1 `shouldBe` (1 :: Int)
+tests =
+  testSpec "{{ cookiecutter.project_name }}" $
+  describe "the feature" $ it "has a test" $ 1 `shouldBe` (1 :: Int)

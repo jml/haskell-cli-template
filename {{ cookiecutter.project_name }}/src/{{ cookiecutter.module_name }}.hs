@@ -7,7 +7,9 @@ module {{ cookiecutter.module_name }}
 import Protolude
 
 -- | Configuration for the application.
-data Config = Config deriving (Eq, Show)
+data Config =
+  Config
+  deriving (Eq, Show)
 
 -- | Where the application goes.
 app :: ReaderT Config IO ()

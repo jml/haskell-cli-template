@@ -6,7 +6,7 @@ module Main
 import Protolude
 
 import Options.Applicative
-       (ParserInfo,  execParser, fullDesc, header, helper, info, progDesc)
+       (ParserInfo, execParser, fullDesc, header, helper, info, progDesc)
 
 import {{ cookiecutter.module_name }} (Config(..), app)
 
